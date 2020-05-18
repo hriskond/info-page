@@ -1,0 +1,82 @@
+<link rel="stylesheet"        href="https://fonts.googleapis.com/css?family=Nanum Gothic">
+<style>
+  body{background-color:#FBFDF2;}
+  h1{font-size:30px;}
+  #navbar{position:fixed;
+          border: 7px solid #ECF3BF;
+          padding:20px;
+          font-family:Nanum Gothic;
+          color:#2D320C;}
+  #main-doc{margin-left:250px;
+            border: 12px solid #ECF3BF;
+            padding:25px;
+            font-family:Nanum Gothic;
+            color:#2D320C;
+            font-size:20px;}
+  p{font-size:15px;}
+  #header{margin-left:260px;
+          font-size:50px;
+          font-style:bold;
+          font-family:Nanum Gothic;
+          color:#2D320C;}
+  #navbar li{margin-right:25px;}
+ 
+</style>
+  <nav id="navbar"><header>List of Things
+    </header><ul>
+    <li><a class="nav-link"
+           href= #Thing_One>
+           Thing One</a></li> 
+    <li><a class="nav-link"                      href=#Thing_Two>
+           Thing Two</a></li>
+    <li><a class="nav-link"                      href=#Thing_Three>
+           Thing Three</a></li>
+    <li><a class="nav-link"                      href=#Thing_Four>
+           Thing Four</a></li>
+    <li><a class="nav-link"                      href=#Thing_Five>
+           Thing Five</a></li>
+    </nav>
+<h1 id="header">
+  Header</h1>
+<main id=main-doc> 
+  <section class="main-section" id="Thing_One"><header> Thing One </header>
+    <ul>
+      <li><p>Here's some information.</p></li>
+    <li><p>And here's some more!</p>
+      </li>
+  </ul>
+    <p>The code<code> background-color</code> will change the color of the background.</p></section>
+  <section class="main-section" id="Thing_Two"><header> Thing Two </header>
+    <ul>
+      <li><p>Guess what?</p></li>
+     <li><p>Chicken Butt!</p></li>
+    </ul>
+    <p>The code <code>font-size </code>will change the size of the font.</p>
+  </section>
+  
+  <section class="main-section" id="Thing_Three"><header>Thing Three</header> 
+    <ul>
+      <li><p>Why did the chicken cross the road?</p></li>
+      <li><p>To get to the other side!</p></li>
+    </ul>
+    <p> The <code>font-family</code> will change your font.</code></p>
+  </section>
+  
+  <section class="main-section" id="Thing_Four"><header>Thing Four</header>
+    <ul>
+      <li><p>Je aller a la plage</p></li>
+      <li><p>Moi aussi!</p></li>
+    </ul>
+    <p>The code <code>h1 </code> will give your text header sized font.</p>
+    </section>
+  
+  <section class="main-section" id="Thing_Five"><header> Thing Five </header>
+    <ul>
+      <li><p>Je veux toi</p></li>
+      <li><p>Moi aussi...</p></li>
+    </ul>
+    <p>The code <code>alt="text" </code> will show in place of an image that won't load.</p> 
+  </section>
+ 
+   </main>
+    
